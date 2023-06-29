@@ -6,7 +6,7 @@ import urllib.request
 
 vk_token = ' '
 api_version='5.131'
-user_ids='619589133'
+user_ids=''
 ya_token =''
 foto_dict={}
 
