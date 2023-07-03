@@ -10,16 +10,6 @@ user_ids=''
 ya_token =''
 foto_dict={}
 
-# def get_users_info(token,api_ver,user_id):
-#     url='https://api.vk.com/method/users.get'
-#     params={
-#      "user_ids": user_id,
-#      "access_token": token,
-#      "v": "5.131",
-#      "fields": "education, sex,photo_id"
-#  }
-#     res = requests.get(url, params=params)
-#     pprint(res.json())
 def get_foto_info(token,api_ver):
     url='https://api.vk.com/method/photos.get'
     params={
